@@ -14,4 +14,4 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.ssh_key }}
           tag-filter: v*
-          directories: clash
+          directories: clash-bin
